@@ -1,91 +1,129 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>KrainskiH | Portfólio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KrainskiH | Portfólio</title>
 
-<link
-href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-rel="stylesheet"
-/>
-<link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" />
 
-<!-- Google Fonts -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Asset&family=Cabin:ital,wdth,wght@0,86.4,400..700;1,86.4,400..700&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Asset&family=Cabin:ital,wdth,wght@0,86.4,400..700;1,86.4,400..700&family=Press+Start+2P&display=swap"
+        rel="stylesheet">
 </head>
 
 <body class="bg-dark text-light">
 
-<!-- HEADER -->
-<header class="hero d-flex align-items-center">
-  <div class="container text-center">
-    <h1 class="hero-title">Henrique Krainski</h1>
-    <p class="hero-subtitle">Desenvolvedor Full Stack Júnior</p>
-  </div>
-  <section class="mb-5">
-    <div class="d-flex flex-wrap gap-2">
-    <span class="badge skill rounded-pill">HTML | CSS | JS</span>
-    <span class="badge skill rounded-pill">Node.js</span>
-    <span class="badge skill rounded-pill">TypeScript</span>
-    <span class="badge skill rounded-pill">Bootstrap</span>
-    <span class="badge skill rounded-pill">Git</span>
-    <span class="badge skill rounded-pill">C | C#</span>
-    <span class="badge skill rounded-pill">Pyhton</span>
-    </div>
-</section>
-</header>
-
-<main class="container py-5">
-
-<!-- SOBRE -->
-<section class="mb-5 reveal">
-    <h2 class="section-title">Sobre</h2>
-    <p class="section-text">
-    Estudante de Ciência da Computação focado em desenvolvimento web moderno,
-    interfaces limpas e código bem estruturado.
-    </p>
-</section>
-
-<!-- PROJETOS -->
-<section class="mb-5">
-    <h2 class="section-title">Projetos</h2>
-
-    <div class="row g-4">
-    <div class="col-md-6">
-        <div class="project-card">
-        <h5>Projeto 1</h5>
-        <p>Descrição curta do projeto.</p>
-        <a href="#" class="btn btn-outline-info btn-sm">Ver projeto</a>
+    <!-- HEADER -->
+    <header class="hero d-flex align-items-center">
+        <div class="overlay"></div>
+        <div class="container text-center">
+            <h1 class="hero-title">HENRIQUE KRAINSKI</h1>
+            <p class="hero-subtitle typing">Full Stack Developer</p>
         </div>
-    </div>
+        <section class="mb-5 ">
+            <div class="d-flex flex-wrap gap-2 flex-center justify-content-center">
+                <span class="badge skill rounded-pill">
+                    <i class="bi bi-filetype-html me-1"></i> HTML
+                </span>
 
-    <div class="col-md-6">
-        <div class="project-card">
-        <h5>Projeto 2</h5>
-        <p>Descrição curta do projeto.</p>
-        <a href="#" class="btn btn-outline-info btn-sm">Ver projeto</a>
-        </div>
-    </div>
-    </div>
-</section>
+                <span class="badge skill rounded-pill">
+                    <i class="bi bi-filetype-css me-1"></i> CSS
+                </span>
 
-<!-- CONTATO -->
-<section>
-    <h2 class="section-title">Contato</h2>
-    <p>Email: seuemail@email.com</p>
-    <p>GitHub: github.com/KrainskiH</p>
-</section>
+                <span class="badge skill rounded-pill">
+                    <i class="bi bi-filetype-js me-1"></i> JavaScript
+                </span>
 
-</main>
+                <span class="badge skill rounded-pill">
+                    <i class="bi bi-node-plus me-1"></i> Node.js
+                </span>
 
-<footer class="text-center py-4 footer">
-© 2026 — Henrique Krainski
-</footer>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="script.js"></script>
+                <span class="badge skill rounded-pill">
+                    <i class="bi bi-bootstrap me-1"></i> Bootstrap
+                </span>
+
+                <span class="badge skill rounded-pill">
+                    <i class="bi bi-git me-1"></i> Git
+                </span>
+
+            </div>
+        </section>
+    </header>
+
+    <main class="container py-5">
+
+        <!-- SOBRE -->
+        <section class="mb-5 reveal card rounded-3 bg-dark bg-opacity-50">
+            <h4 class="section-title card-header ">About me</h4>
+            <div class="card-body bg-secondary bg-opacity-10 text-light rounded-3">
+                Estudante de Ciência da Computação no 5º periodo, focado em desenvolvimento web moderno e sistemas
+                avançadosos. Apaixonado por criar e desenvolver, sempre buscando conhecimentos novos para entregar
+                qualidade em cada projeto. Estou em busca de oportunidades para aplicar meus conhecimentos e crescer
+                profissionalmente na área de desenvolvimento.
+                <ul class="about-list">
+                    <li><i class="bi bi-mortarboard-fill me-2"></i> Ciência da Computação – 5º período</li>
+                    <li><i class="bi bi-code-slash me-2"></i> Desenvolvimento Web Moderno</li>
+                    <li><i class="bi bi-palette-fill me-2"></i> Interesse em UI/UX</li>
+                    <li><i class="bi bi-rocket-takeoff-fill me-2"></i> Buscando estágio / júnior</li>
+                </ul>
+            </div>
+
+        </section>
+
+        <!-- PROJETOS -->
+        <section class="mb-5 reveal">
+            <h4 class="section-title">Projetos</h4>
+
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="project-card">
+                        <h5>BodyAction</h5>
+                        <p class="stack">
+                            <i class="bi-stack me-1"></i>Node • MVC • CRUD • MySQL</p>
+                        <p>Sistema completo de cadastro com arquitetura MVC.</p>
+
+                        <a href="https://github.com/KrainskiH/BodyAction.git" class="btn btn-outline-info btn-sm">Ver
+                            projeto</a>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="project-card">
+                        <h5>OldDragon</h5>
+                        <p class="stack">
+                        <i class="bi-stack me-1"></i>PHP • FLASK • MVC </p>
+
+                            Criação de personagem atributos , classes e raça. Relacionado ao RPG OldDragon.</p>
+                        <a href="https://github.com/KrainskiH/OldDragon.git" class="btn btn-outline-info btn-sm">Ver projeto</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTATO -->
+        <section class="mb-5 reveal">
+            <h4 class="section-title">Contato</h4>
+            <p><i class="bi-envelope-fill"></i> Email: henriquekrainski38@gmail.com</p>
+            <p><i class="bi-github"></i> GitHub: github.com/KrainskiH</p>
+            <a class="btn btn-info text-dark" src="/Curriculo Henrique (1).pdf">Download CV</a>
+
+        </section>
+
+    </main>
+
+    <footer class="text-start py-4 footer small text-light">
+        © 2026 — Portifólio de Henrique Krainski
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
 
 </body>
+
 </html>
